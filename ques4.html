@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q4 - Student Object</title>
+</head>
+<body>
+<script>
+let student = {
+  name: "John",
+  age: 20,
+  grades: 85
+};
+
+// Add new property
+student.class = "B.Tech";
+
+// Update grade
+student.grades = 90;
+
+// Display all info
+for (let key in student) {
+  document.write(key + ": " + student[key] + "<br>");
+}
+</script>
+</body>
+</html>

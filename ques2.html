@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Q2 - Array Operations</title>
+</head>
+<body>
+<script>
+let arr = [12, 45, 7, 23, 89];
+
+document.write("Array: " + arr + "<br>");
+document.write("Largest: " + Math.max(...arr) + "<br>");
+document.write("Smallest: " + Math.min(...arr) + "<br>");
+
+let asc = [...arr].sort((a,b) => a-b);
+let desc = [...arr].sort((a,b) => b-a);
+
+document.write("Ascending: " + asc + "<br>");
+document.write("Descending: " + desc + "<br>");
+</script>
+</body>
+</html>
